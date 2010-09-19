@@ -1,0 +1,30 @@
+//
+// Check for OTTD's version number
+// Thanks to openttd.nfo source
+//
+
+// Skip the test, if the plattform is TTDPatch
+    0 * 0	09 9D 04 \7= 00 00 00 00 "E"
+
+// First step... Variable A1 might not exist. If that's the case it always
+// skips. As we do not want to skip out of the whole testing, we skip over
+// the real version check.
+   -1 * 0	 07 A1 04 \7= FF FF FF FF 02
+
+// Real version check.
+   -1 * 0	 07 A1 04 \7> \w10211 00 06 03
+
+// If the version check is supported, the string is translateable via OpenTTD
+// itself. Use it!.
+
+   -1 * 0	 0B 03 7F 06 "0.6 (or trunk r10211)" 00
+
+// Some OTTD versions before r11130 did support Action B, so use the English
+// phrase there
+   -1 * 0	 0B 03 7F FF "Requires OpenTTD version 0.6 (or trunk r10211) or better." 00
+
+// Final fallback. No Action B support, just skip to the end of the file.
+   -1 * 0	 07 A1 04 \7= FF FF FF FF 00 
+
+// End of test
+	0 * 0	10 "END"
