@@ -1,0 +1,24 @@
+// ******************************
+// [ <probablity> <part/ID> ]..
+50 "Jakarta" 00 
+40 "Bekasi" 00
+40 "Medan" 00
+40 "Surabaya" 00
+40 "Bandung" 00
+40 "Bandar Lampung" 00
+40 "Malang" 00
+40 "Bogor" 00
+40 "Semarang" 00
+40 "ujung Pandang" 00
+40 "Tangerang" 00
+40 "Palembang" 00
+30 "Depok" 00
+30 "Surakarta" 00
+30 "Banjarmasin" 00
+30 "Pekanbaru" 00
+30 "Samarinda" 00
+30 "Padang" 00
+30 "Jambi" 00
+30 "Denpasar" 00
+30 "Pontianak" 00
+30 "Balikpapan" 00

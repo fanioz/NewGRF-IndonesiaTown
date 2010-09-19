@@ -1,0 +1,13 @@
+01 "Bojonegoro" 00
+01 "Babat" 00
+01 "Cimahi" 00
+01 "Donggala" 00
+01 "Garut" 00
+01 "Kudus" 00
+01 "Lamongan" 00
+01 "Madiun" 00
+01 "Ngawi" 00
+01 "Probolinggo" 00
+01 "Rembang" 00
+01 "Singaraja" 00
+01 "Tuban" 00
