@@ -1,0 +1,33 @@
+#!/bin/sh
+
+GRFID="45 5B 09 03" 		# "FZ" 09 03
+FILENAME="indonesian-towns"
+FILENAMEDOS="idtowns.grf"
+VERSION="0.1"
+CURDATE=$(date --rfc-3339=date)
+TARNAME=$FILENAME.tar
+
+mkdir -p sprites
+cat head.txt > sprites/$FILENAME.nfo
+cat head_ottdrev.txt >> sprites/$FILENAME.nfo
+echo "//Action 8-Define GRF ID, Name and Description
+//<spr-no> * <len> 08 <version> <grf-id> <name> <description>
+    0 * 0	08 07 $GRFID \"Indonesian Town Names $VERSION\" 00
+	 \"$CURDATE / by  fanioz , based on Ammler big works\" 00
+" >> sprites/$FILENAME.nfo
+cat id00.txt >> sprites/$FILENAME.nfo
+cat cities/big.txt >> sprites/$FILENAME.nfo
+cat cities/x00.txt >> sprites/$FILENAME.nfo
+cat ciities/x01.txt >> sprites/$FILENAME.nfo
+cat id81.txt >> sprites/$FILENAME.nfo
+
+renum  sprites/$FILENAME.nfo
+
+grfcodec -e $FILENAME.grf
+
+cat readme.tmpr | sed -e "s/%versi%/$VERSION/g;s/%grfid%/$GRFID/g;s/%nfo%/$FILENAME.grf/g;s/%date%/$CURDATE/g;s/%md5sum%/$(md5sum $FILENAME.grf | cut -b 1-32)/g" > readme.txt
+
+
+# using tar instead of zip
+tar -cvf  $TARNAME $FILENAME.grf readme.txt license.txt Flag_of_Indonesian_small.png
+
