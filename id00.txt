@@ -1,8 +1,0 @@
-//City Counter: 122=0x7a
-//<Spr-no> * <Len> 0F <ID> 
-	0 * 0	0F 
-		00 //intermediate
-		01 //part
-		7A //textcount
-		07 // firstbit = 01
-		10 // bitcount max. 32
