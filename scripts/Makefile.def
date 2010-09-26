@@ -111,6 +111,7 @@ endif
 # This must be conditional declarations, or building from the tar.gz won't work anymore
 DEFAULT_BRANCH_NAME ?= nightly
 REPO_REVISION  ?= $(shell $(HG) id -n | cut -d+ -f1)
+REPO_DATE      ?= $(shell $(HG) parent --template="{date|shortdate}")
 REPO_MODIFIED  ?= $(shell [ "`$(HG) id | cut -c13`" = "+" ] && echo "M" || echo "")
 REPO_BRANCH    ?= $(shell $(HG) id -b | sed "s/default/$(DEFAULT_BRANCH_NAME)/")
 REPO_TAGS      ?= $(shell $(HG) id -t | grep -v "tip")
