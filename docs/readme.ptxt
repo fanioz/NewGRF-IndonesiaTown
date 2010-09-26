@@ -3,7 +3,7 @@
 ------------------------------------------------------
 
 Type:
-1. 123 cities (and growing)
+1. {{NUM_TOWN}} cities (and growing)
 
 Requirements:
 TTDPatch: 2.5 beta 5
@@ -31,7 +31,7 @@ Credits:
     -Example NewGRF Project
     -Compile Farm
 - NewGRF Meta Language project (http://dev.openttdcoop.org/projects/nml)
-- All of the nice people at TT-Forums :-D
+- All of the nice people at TT-Forums and #openttdcoop.devzone  :-D
 
 License: GPL v2
 
