@@ -1,0 +1,16 @@
+# Here also go all build targets specific to this very newgrf
+$(CHANGELOG_FILE):
+	$(_E) [Generating changelog]
+	$(_V) ./make_changelog.sh > docs/changelog.txt
+	
+$(SRC_DIR)/$(FILENAME_STUB).pnml: $(SRC_TOWN)
+	$(_E) "Building $@ from $<"
+	
+$(NUMBER_FILE):
+	$(_E) "[Count City]"
+	$(_V) ./count_town.sh $@
+
+	
+$(SRC_TOWN):
+	$(_E) "Building $@"
+	$(_V) ./generate_town.sh $@

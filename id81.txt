@@ -1,11 +1,0 @@
-// Define new town name styles
-// <Sprite-number> * <Length> 0F <ID final>
-0 * 0	0F 81
-// <stylenames> <lang-id> <value>...
-7F "Indonesian" 00 01 "Indonesian" 00 
-00 //end of style
-01 //numpart 
-02 //textcount
-00 //firstbit
-01 //bitcount
-81 00 81 00

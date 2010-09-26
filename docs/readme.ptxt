@@ -1,0 +1,39 @@
+------------------------------------------------------
+       * {{GRF_TITLE}} *
+------------------------------------------------------
+
+Type:
+1. {{NUM_TOWN}} cities (and growing)
+
+Requirements:
+TTDPatch: 2.5 beta 5
+OpenTTD : 0.6 (or trunk r10211)
+
+Usage:
+You need to load {{GRF_TITLE}} BEFORE you start a new game.
+Choose the Town Names at the Game Options GUI.
+
+* GRFID   : {{GRF_ID}}
+* Filename: {{FILENAME}} 
+* md5sum  : {{GRF_MD5}}
+
+Homepage: http://dev.openttdcoop.org/projects/indonesiantowns
+
+Discussion:
+- TT-Forums   : http://www.tt-forums.net/viewtopic.php?f=29&t=41055
+- Google Group: openttd-indonesia@googlegroups.com (Indonesian only)
+
+Credits:
+- Ammler for the permittion to re-use/modify his great works
+- #openttdcoop Development Zone (https://dev.openttdcoop.org/)
+  which has provided :
+    -Code Hosting
+    -Example NewGRF Project
+    -Compile Farm
+- NewGRF Meta Language project (http://dev.openttdcoop.org/projects/nml)
+- All of the nice people at TT-Forums and #openttdcoop.devzone  :-D
+
+License: GPL v2
+
+==================
+{{DATE}} / Fanioz
