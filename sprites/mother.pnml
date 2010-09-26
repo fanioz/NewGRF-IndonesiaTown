@@ -1,0 +1,13 @@
+/*
+	indispensable city
+	number means the stage :
+	4 - capital
+	3 - provinces
+	2 - cities
+	1 - towns
+*/
+
+town_names(towns) {
+  styles: string(STR_GRF_MENU_NAME);
+  {
+	text("Jakarta", 4),

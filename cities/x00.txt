@@ -1,87 +1,87 @@
-20 "Ambarawa " 00
-20 "Ambon " 00
-20 "Banda Aceh " 00
-20 "Banjarnegara " 00
-20 "Banyumas " 00
-20 "Banyuwangi " 00
-20 "Batam " 00
-20 "Bau-Bau " 00
-20 "Bengkulu " 00
-20 "Biak " 00
-20 "Blitar " 00
-20 "Bontang " 00
-20 "Brebes " 00
-20 "Bukittinggi " 00
-20 "Bulukumba " 00
-20 "Ciamis " 00
-20 "Cianjur " 00
-20 "Cilacap " 00
-20 "Cilegon " 00
-20 "Cinere " 00
-20 "Cirebon " 00
-20 "Dompu " 00
-20 "Dumai " 00
-20 "Enarotali " 00
-20 "Fak Fak " 00
-20 "Garut " 00
-20 "Gorontalo " 00
-20 "Jayapura " 00
-20 "Jember " 00
-20 "Jepara " 00
-20 "Jombang " 00
-20 "Kawangkoan " 00
-20 "Kebumen " 00
-20 "Kediri " 00
-20 "Kendari " 00
-20 "Kudus " 00
-20 "Kupang " 00
-20 "Lampung " 00
-20 "Lumajang " 00
-20 "Magelang  " 00
-20 "Malili " 00
-20 "Mamuju " 00
-20 "Menado " 00
-20 "Manokwari " 00
-20 "Martapura " 00
-20 "Mataram " 00
-20 "Merauke " 00
-20 "Nusa Tenggara " 00
-20 "Palangkaraya " 00
-20 "Palopo " 00
-20 "Palu " 00
-20 "Pandeglang " 00
-20 "Pangkal Pinang " 00
-20 "Pare-Pare " 00
-20 "Pasuruan " 00
-20 "Pati " 00
-20 "Payakumbuh " 00
-20 "Pekalongan " 00
-20 "Pemalang " 00
-20 "Poso " 00
-20 "Probolinggo " 00
-20 "Purbalingga " 00
-20 "Purwakarta " 00
-20 "Purwodadi " 00
-20 "Purwokerto " 00
-20 "Purworejo " 00
-20 "Salatiga " 00
-20 "Serang " 00
-20 "Sibolga " 00
-20 "Sinjai " 00
-20 "Sofifi " 00
-20 "Sorong " 00
-20 "Subang " 00
-20 "Sukabumi " 00
-20 "Sumbawa Besar " 00
-20 "Sumedang " 00
-20 "Sungailiat " 00
-20 "Tanjung Pinang " 00
-20 "Tarakan " 00
-20 "Tasikmalaya " 00
-20 "Tegal " 00
-20 "Temanggung " 00
-20 "Ternate " 00
-20 "Timika " 00
-20 "Wamena " 00
-20 "Wonosari " 00
-20 "Yogyakarta  " 00
+20	Ambarawa 
+20	Ambon 
+20	Banda Aceh 
+20	Banjarnegara 
+20	Banyumas 
+20	Banyuwangi 
+20	Batam 
+20	Bau-Bau 
+20	Bengkulu 
+20	Biak 
+20	Blitar 
+20	Bontang 
+20	Brebes 
+20	Bukittinggi 
+20	Bulukumba 
+20	Ciamis 
+20	Cianjur 
+20	Cilacap 
+20	Cilegon 
+20	Cinere 
+20	Cirebon 
+20	Dompu 
+20	Dumai 
+20	Enarotali 
+20	Fak Fak 
+20	Garut 
+20	Gorontalo 
+20	Jayapura 
+20	Jember 
+20	Jepara 
+20	Jombang 
+20	Kawangkoan 
+20	Kebumen 
+20	Kediri 
+20	Kendari 
+20	Kudus 
+20	Kupang 
+20	Lampung 
+20	Lumajang 
+20	Magelang  
+20	Malili 
+20	Mamuju 
+20	Menado 
+20	Manokwari 
+20	Martapura 
+20	Mataram 
+20	Merauke 
+20	Nusa Tenggara 
+20	Palangkaraya 
+20	Palopo 
+20	Palu 
+20	Pandeglang 
+20	Pangkal Pinang 
+20	Pare-Pare 
+20	Pasuruan 
+20	Pati 
+20	Payakumbuh 
+20	Pekalongan 
+20	Pemalang 
+20	Poso 
+20	Probolinggo 
+20	Purbalingga 
+20	Purwakarta 
+20	Purwodadi 
+20	Purwokerto 
+20	Purworejo 
+20	Salatiga 
+20	Serang 
+20	Sibolga 
+20	Sinjai 
+20	Sofifi 
+20	Sorong 
+20	Subang 
+20	Sukabumi 
+20	Sumbawa Besar 
+20	Sumedang 
+20	Sungailiat 
+20	Tanjung Pinang 
+20	Tarakan 
+20	Tasikmalaya 
+20	Tegal 
+20	Temanggung 
+20	Ternate 
+20	Timika 
+20	Wamena 
+20	Wonosari 
+20	Yogyakarta  
