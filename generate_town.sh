@@ -5,7 +5,7 @@
 NML=$1
 CITIES="big x00 x01"
 #number of city file + 1
-let N_CITIES=4;
+N_CITIES=4;
 
 for i in $CITIES; do
 cat >>$NML <<EOF
@@ -19,8 +19,7 @@ done
 cat sprites/mother.pnml >> $NML
 
 for i in $CITIES; do
-  let --N_CITIES
-  echo "    town_names($i, $N_CITIES)," >>$NML
+  echo "    town_names($i, $((N_CITIES = N_CITIES - 1)))," >>$NML
 done
 
 cat sprites/closebracket.pnml >> $NML
