@@ -11,7 +11,7 @@ for i in $CITIES; do
 cat >>$NML <<EOF
 town_names($i) {
   {
-`awk -F'\t' '{print "    text(\""$2"\", "$1"),"}' cities/$i.txt`
+`awk -F'\t' '{if (($1 * 1) < 1) next; print "    text(\""$2"\", "$1"),"}' cities/$i.txt`
 EOF
 cat sprites/closebracket.pnml >> $NML
 done
