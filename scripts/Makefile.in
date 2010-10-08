@@ -1,0 +1,28 @@
+# Here also go all build targets specific to this very newgrf
+$(CHANGELOG_FILE):
+	$(_E) [Generating changelog]
+	$(_V) $(shell) make_changelog.sh > $@
+
+$(SRC_DIR)/$(FILENAME_STUB).pnml: $(SRC_TOWN)
+	$(_E) "Building $@ from $<"
+
+$(NUMBER_FILE):
+	$(_E) "[Count City]"
+	$(_V) $(shell) count_town.sh $@
+
+
+$(SRC_TOWN):
+	$(_E) "Building $@"
+	$(_V) $(shell) generate_town.sh $@
+
+test::
+	$(_E) "Repository date:              $(REPO_DATE)"
+	$(_E) "Output Filename:              $(OUTPUT_FILENAME)"
+
+%.ptxt: %.ttxt $(NUMBER_FILE)
+	$(_E) "[t][TXT] $@"
+	$(_V) cat $< \
+		| sed -e "s/$(OUTPUT_FILENAME_DUMMY)/$(TARGET_FILES)/" \
+		| sed -e "s/$(NUM_TOWN_DUMMY)/$(shell cat $(NUMBER_FILE))/" \
+		| sed -e "s/$(REPO_DATE_DUMMY)/$(REPO_DATE)/" \
+		> $@
