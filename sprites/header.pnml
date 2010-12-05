@@ -9,7 +9,7 @@ grf {
 if (ttd_platform == PLATFORM_OPENTTD) {
 	if (openttd_version < version_openttd(0, 6, 0))
     {
-        error(FATAL, REQUIRES_OPENTTD, STR_MIN_VERSION_OTTD);
+        error(FATAL, REQUIRES_OPENTTD, string(STR_MIN_VERSION_OTTD));
 		exit;
     }
 }
@@ -17,7 +17,7 @@ if (ttd_platform == PLATFORM_OPENTTD) {
 if (ttd_platform == PLATFORM_TTDPATCH) {
 	if (ttdpatch_version < 02500050)
 	{
-		error(FATAL, REQUIRES_TTDPATCH, STR_MIN_VERSION_TTDP);
+		error(FATAL, REQUIRES_TTDPATCH, string(STR_MIN_VERSION_TTDP));
 		exit;
 	}
 } 

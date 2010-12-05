@@ -1,4 +1,4 @@
-lang: 7F
+##grflangid 0x01
 STR_GRF_NAME                                                    :Indonesian Town Names
 STR_GRF_DESCRIPTION                                             :This NewGrf would allow you to have Indonesia Towns in game.{}Coding by Fanioz.{}With the help of #openttdcoop.devzone.{}License: GPL v2.
 STR_GRF_MENU_NAME                                               :Indonesia
